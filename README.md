@@ -1,6 +1,6 @@
 <div align="center">
 
-## PhoneRecon
+# PhoneRecon
 Simple Python Program to generate phone number details
 
 </div>
