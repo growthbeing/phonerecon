@@ -13,7 +13,9 @@ ______ _                     ______
 
 '''
 
-os.system("clear")
+clearConsole = lambda: print('\n' * 150)
+
+clearConsole()
 print(banner)
 data = str(input(">Enter phone number(with Country code(Ex. +91)):"))
 phone_number = phonenumbers.parse(data)
