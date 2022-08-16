@@ -7,4 +7,13 @@ Simple Python program to ```generate phone number details```
 
 
 ### Requirements
+- Python 3.0
+- pip
+
+### Dependencies
 - phonenumbers
+
+### Run the program
+```
+python phonerecon.py
+```
