@@ -14,7 +14,7 @@ ______ _                     ______
                          v1.0
 '''
 
-clearConsole = lambda: print('\n' * 150)
+clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
 clearConsole()
 print(banner)
