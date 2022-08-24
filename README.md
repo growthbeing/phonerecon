@@ -10,8 +10,13 @@ Simple Python program to ```generate phone number details```
 - Python 3.0
 - pip
 
-### Dependencies
+### Python Dependencies
 - phonenumbers
+
+### Install dependencies
+```
+pip install -r requirements.txt
+```
 
 ### Run the program
 ```
