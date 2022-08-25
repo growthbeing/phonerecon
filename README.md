@@ -23,5 +23,5 @@ pip install -r requirements.txt
 python phonerecon.py
 ```
 
-### Issues
+### Issues :bug:
 If you find any issues/bugs, create an issue in the [Issues](https://github.com/growthbeing/phonerecon/issues/) tab of the repository
