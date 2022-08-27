@@ -14,17 +14,20 @@ ______ _                     ______
                          v1.0
 '''
 
-clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
+def main():
+  clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
-clearConsole()
-print(banner)
-data = str(input(">Enter phone number(with Country code(Ex. +91)):"))
-phone_number = phonenumbers.parse(data)
+  clearConsole()
+  print(banner)
+  data = str(input(">Enter phone number(with Country code(Ex. +91)):"))
+  phone_number = phonenumbers.parse(data)
 
-print("\n##################################")
-print("|      Phone Number Details      |")
-print("##################################\n")
-print("Valid Number:", str(phonenumbers.is_valid_number(phone_number)))
-print("Carrier Name:", str(carrier.name_for_number(phone_number, "en")))
-print("Timezone:", str(timezone.time_zones_for_number(phone_number)))
-print("Geolocation:", str(geocoder.description_for_number(phone_number, "en")))
+  print("\n##################################")
+  print("|      Phone Number Details      |")
+  print("##################################\n")
+  print("Valid Number:", str(phonenumbers.is_valid_number(phone_number)))
+  print("Carrier Name:", str(carrier.name_for_number(phone_number, "en")))
+  print("Timezone:", str(timezone.time_zones_for_number(phone_number)))
+  print("Geolocation:", str(geocoder.description_for_number(phone_number, "en")))
+
+main()
