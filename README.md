@@ -13,6 +13,11 @@ Simple Python program to ```generate phone number details```
 ### Python Dependencies
 - phonenumbers
 
+### Clone the repository
+```sh
+git clone https://github.com/growthbeing/phonerecon && cd phonerecon
+```
+
 ### Install dependencies
 ```
 pip install -r requirements.txt
