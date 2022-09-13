@@ -1,7 +1,7 @@
 <div align="center">
 
 # :iphone: PhoneRecon
-Simple Python program to ```generate phone number details```
+Simple _Python program_ to **```generate phone number details```**
 
 </div>
 
