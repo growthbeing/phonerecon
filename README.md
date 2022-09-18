@@ -1,6 +1,10 @@
 <div align="center">
 
 # :iphone: PhoneRecon
+
+![Version](https://img.shields.io/badge/version-0.0.1-lightgreen.svg?style=flat-square)
+  
+
 Simple _Python program_ to **```generate phone number details```**
 
 </div>
