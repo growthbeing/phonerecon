@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python phonerecon.py
 ```
 
-### Contribution
+### Contributions
 If you want to help with this small project in any way possible please open an [Issue](https://github.com/growthbeing/phonerecon/issues) or [Pull Request](https://github.com/growthbeing/phonerecon/pulls) to contribute
 
 ### Issues :bug:
