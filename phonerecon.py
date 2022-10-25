@@ -14,11 +14,13 @@ ______ _                     ______
                          v1.0
 '''
 
-def main():
-  clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
+clear_console = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
-  clearConsole()
+def main():
+  
+  clear_console()
   print(banner)
+
   data = str(input(">Enter phone number(with Country code(Ex. +91)):"))
   phone_number = phonenumbers.parse(data)
 
